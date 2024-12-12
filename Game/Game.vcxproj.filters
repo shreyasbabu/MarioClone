@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="game\Game.cpp">
+      <Filter>Game\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Precompiled.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\manager\CollisionSystem.cpp">
+      <Filter>Engine\manager\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\manager\GameObjectManager.cpp">
+      <Filter>Engine\manager\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\manager\RenderSystem.cpp">
+      <Filter>Engine\manager\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\component\RenderElement.cpp">
+      <Filter>Engine\component\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\component\Collider.cpp">
+      <Filter>Engine\component\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\component\GameObject.cpp">
+      <Filter>Engine\component\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\manager\AssetManager.cpp">
+      <Filter>Engine\manager\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\manager\InputHandler.cpp">
+      <Filter>Engine\manager\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Actor.cpp">
+      <Filter>Game\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\component\Animator.cpp">
+      <Filter>Engine\component\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp" />
+    <ClCompile Include="BrickTile.cpp" />
+    <ClCompile Include="CoinTile.cpp" />
+    <ClCompile Include="Goomba.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{92f1c73a-c2ea-4322-afec-74c388668350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{eb58fe2d-a1f7-4134-ac73-530a22a661f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{767164ba-6091-44e9-b24e-37531ff1a7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\src">
+      <UniqueIdentifier>{aabf8aca-f12d-4c0c-bcde-11b6e259a470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\header">
+      <UniqueIdentifier>{db87be35-32c1-4f82-af32-b008c61ecd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\core">
+      <UniqueIdentifier>{a99b9793-87f9-45d0-b548-81325b4bf61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\core\src">
+      <UniqueIdentifier>{61f26b4f-e8e4-4d9a-af8b-9cf9092d5f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\core\header">
+      <UniqueIdentifier>{a582b238-fa2c-4b5c-a2a6-2063734cd677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\manager">
+      <UniqueIdentifier>{256a37b1-652d-422f-ad8c-6a4899c6e817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\manager\header">
+      <UniqueIdentifier>{cbab57ce-c8c9-4b7e-9a49-78e46512d1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\manager\src">
+      <UniqueIdentifier>{b0da5633-e11d-4bcd-becf-c1dd90272645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\component">
+      <UniqueIdentifier>{553148b9-f00b-4270-8b50-85cc6fa35399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\component\header">
+      <UniqueIdentifier>{99d011d1-0986-4c42-9026-48c8963655ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\component\src">
+      <UniqueIdentifier>{2488a5a7-cec2-4ab2-93aa-0a0aec40a33f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Precompiled.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\core\EnableAsService.h">
+      <Filter>Engine\core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\core\IGame.h">
+      <Filter>Engine\core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\core\ISystem.h">
+      <Filter>Engine\core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\core\NonOwnPtr.h">
+      <Filter>Engine\core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\core\ServiceLocator.h">
+      <Filter>Engine\core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Game.h">
+      <Filter>Game\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\manager\GameObjectManager.h">
+      <Filter>Engine\manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\manager\CollisionSystem.h">
+      <Filter>Engine\manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\manager\RenderSystem.h">
+      <Filter>Engine\manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\component\RenderElement.h">
+      <Filter>Engine\component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\component\Collider.h">
+      <Filter>Engine\component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\component\GameObject.h">
+      <Filter>Engine\component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\manager\AssetManager.h">
+      <Filter>Engine\manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="game\LevelData.h">
+      <Filter>Game\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\manager\InputHandler.h">
+      <Filter>Engine\manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\component\IComponent.h">
+      <Filter>Engine\component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Actor.h">
+      <Filter>Game\header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\component\Animator.h">
+      <Filter>Engine\component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h" />
+    <ClInclude Include="BrickTile.h" />
+    <ClInclude Include="CoinTile.h" />
+    <ClInclude Include="Goomba.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="engine\core\ServiceLocator.inl">
+      <Filter>Engine\core\src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
